@@ -1,0 +1,127 @@
+body{
+    width: 100%;
+    max-width: 1320px;
+    margin: auto;
+}
+nav{
+    width: 100%;
+    position: sticky;
+    top: 0;
+    background-color: rgb(255,255,255);
+    >div{
+        width: 100%;
+        max-width: 1320px;
+        margin: auto;
+      
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        >div:nth-of-type(2){
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            gap: 40px;
+            color: #DC4348;
+            font-size: 20px;
+            font-family: "Inconsolata", monospace;
+        }
+        >div:nth-of-type(3){
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            gap: 25px;
+            color: #DC4348;
+            font-size: 18px;
+        }
+    }
+}
+.container-two{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aqua;
+    >div:nth-of-type(1){
+        background-image: url("https://www.cafecoffeeday.com/sites/all/themes/ccd/assets/images/store-locator/storelocator-desktop.jpg");
+        background-size: cover;
+       background-position: center;
+        width: 70%;
+        height: 500px;
+    }
+    >div:nth-of-type(2){
+        width: 30%;
+        height: 500px;
+        background-color: #dc4348 ;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        flex-direction: column;
+        color: white;
+        font-family: "Inconsolata", monospace;
+        >button{
+            padding: 6px;
+            box-sizing: border-box;
+            width: 250px;
+            border-radius: 10px;
+            background-color: #fcedee;
+            border: none;
+            color: #DC4348;
+        }
+        >input{
+            width:  240px;
+            padding: 6px;
+            box-sizing: border-box;
+            color: #fcedee;
+            background-color: #DC4348;
+            border: 1px solid white;
+            text-align: center;
+            border-radius: 10px;
+
+        }
+        h1{
+            margin: 0;
+            font-size: 39px;
+
+        }
+    }
+
+}
+.insta-fb-you{
+    width: 100%;
+    height:100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    >img{
+        width: 50px;
+        height: 50px;
+        border-radius: 20px;
+        box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    }
+}
+footer{
+    width: 100%;
+    height: auto;
+    >div{
+        width: 100;
+        height: 250px;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        h3{
+            font-family: "Inconsolata", monospace;
+           color: #858484;
+        }
+        span{
+            font-family: "Inconsolata", monospace;
+            color: #858484;
+        }
+    }
+    p{
+        color: #858484;
+        font-family: "Inconsolata", monospace;
+    }
+}
